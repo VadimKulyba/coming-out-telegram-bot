@@ -1,7 +1,7 @@
 require 'telegram/bot'
 require_relative 'lib/message_answer'
 
-TOKEN = '488057424:AAFAudk-bOmDTqDOWZJeGyICW34Fk7ybI1A'.freeze
+TOKEN = '#################################'.freeze
 
 Telegram::Bot::Client.run(TOKEN) do |bot|
   answer = MessageAnswer.new
